@@ -1,0 +1,17 @@
+git config --global user.name "your username"
+git config --global user.email "email"
+1)create a central repository in github
+2)create a folder in the local machine
+3)navigate to the folder ->right click->Git bash here
+4)gitbashterminal >git init - to initialize the git repository
+git status - to check the files in the staging area
+create some files in the folder
+git add . - move the file to the staging area
+git commit -m "Initial commit" - to save the files
+connect local and remote repository
+git remote add origin "https://github.com/ParvathyMuthuvelan/gitproject1.git"
+git push origin master - save the code to the remote repository
+get the commit in the github
+modify the committed files.
+git pull origin master - get the modified files from the hitgub
+
